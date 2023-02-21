@@ -1,0 +1,34 @@
+/* Footer Part CSS*/
+footer {
+  background-color: var(--color-131921);
+}
+
+footer:not(:first-child) {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+footer .footer-top-data img {
+  width: 35px;
+  height: 35px;
+  transform: rotate(300deg);
+}
+
+footer .input-group-text {
+  background-color: var(--color-232f3e);
+  color: var(--color-ffffff);
+  padding: 8px 17px;
+  text-transform: uppercase;
+}
+
+footer .social_icons a {
+  width: 35px;
+  height: 35px;
+  color: var(--color-ffffff);
+}
+
+footer .app_store img {
+  width: 145px;
+  height: 50px;
+}
+
+/* Footer Part CSS Ends*//*# sourceMappingURL=Footer.css.map */
