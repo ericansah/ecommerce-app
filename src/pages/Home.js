@@ -2,6 +2,7 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import Marquee from 'react-fast-marquee';
 import './Home.css';
+import BlogCard from '../components/BlogCard';
 
 const Home = () => {
   return (
@@ -137,7 +138,7 @@ const Home = () => {
 
                     <div className='categories d-flex align-items-center flex-wrap justify-content-between'>
                       
-                      <div className='d-flex align-items-center'>
+                      <div className='d-flex gap align-items-center'>
                           <div>
                             <h6>Gaming</h6>
                             <p className='mb-0'>10 items</p>
@@ -145,7 +146,7 @@ const Home = () => {
                           <img src='images/ps-game.jpg' alt='gaming'/>
                       </div>
 
-                      <div className='d-flex align-items-center'>
+                      <div className='d-flex gap align-items-center'>
                           <div>
                             <h6>Camera</h6>
                             <p className='mb-0'>10 items</p>
@@ -154,7 +155,7 @@ const Home = () => {
                       </div>
 
 
-                      <div className='d-flex align-items-center'>
+                      <div className='d-flex gap align-items-center'>
                           <div>
                             <h6>Smart TV</h6>
                             <p className='mb-0'>10 items</p>
@@ -163,7 +164,7 @@ const Home = () => {
                       </div>
 
 
-                      <div className='d-flex align-items-center'>
+                      <div className='d-flex gap align-items-center'>
                           <div>
                             <h6>Headphones</h6>
                             <p className='mb-0'>10 items</p>
@@ -171,7 +172,7 @@ const Home = () => {
                           <img src='images/headphone.jpg' alt='services'/>
                       </div>
 
-                      <div className='d-flex align-items-center'>
+                      <div className='d-flex gap align-items-center'>
                           <div>
                             <h6>Gaming</h6>
                             <p className='mb-0'>10 items</p>
@@ -179,7 +180,7 @@ const Home = () => {
                           <img src='images/ps-game.jpg' alt='gaming'/>
                       </div>
 
-                      <div className='d-flex align-items-center'>
+                      <div className='d-flex gap align-items-center'>
                           <div>
                             <h6>Camera</h6>
                             <p className='mb-0'>10 items</p>
@@ -188,7 +189,7 @@ const Home = () => {
                       </div>
 
 
-                      <div className='d-flex align-items-center'>
+                      <div className='d-flex gap align-items-center'>
                           <div>
                             <h6>Camera</h6>
                             <p className='mb-0'>10 items</p>
@@ -197,7 +198,7 @@ const Home = () => {
                       </div>
 
 
-                      <div className='d-flex align-items-center'>
+                      <div className='d-flex gap align-items-center'>
                           <div>
                             <h6>Camera</h6>
                             <p className='mb-0'>10 items</p>
@@ -256,6 +257,21 @@ const Home = () => {
               </div>
           </div>
        </section>
+
+
+       <section className='blog-wrapper home-wrapper-2 py-5'>
+          <div className='container-xxl'>
+              <div className='row'>
+                    <div className='col-12'>
+                        <h3 className='section-heading'>Blog News</h3>
+                    </div>
+                    <BlogCard />
+                    <BlogCard />
+                    <BlogCard />
+                    <BlogCard />
+              </div>
+          </div>
+      </section>
 
 
 {/*<section className='marque-wrapper py-5'>
