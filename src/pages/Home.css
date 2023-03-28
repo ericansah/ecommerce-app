@@ -77,7 +77,7 @@
 /* Home Categories CSS*/
 .categories {
   background-color: var(--color-ffffff);
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1019607843);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1019607843);
   padding: 15px;
 }
 
