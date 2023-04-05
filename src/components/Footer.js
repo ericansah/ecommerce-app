@@ -45,10 +45,10 @@ const Footer = () => {
                     <a className='mt-2 d-block mb-0 text-white' href="mailto:donkomi@mail.com">donkomi@mailexample.com</a>
 
                     <div className='social_icons d-flex align-items-center gap-30 mt-4'>
-                         <a className='text-white' href='#' alt="social icons"><BsFacebook className='fs-4'/></a>
-                         <a className='text-white' href='#' alt="social icons"><BsTwitter className='fs-4'/></a>
-                         <a className='text-white' href='#' alt="social icons"><BsInstagram className='fs-4'/></a>
-                         <a className='text-white' href='#' alt="social icons"><BsPinterest className='fs-4'/></a>
+                         <a className='text-white' href='' alt="social icons"><BsFacebook className='fs-4'/></a>
+                         <a className='text-white' href='' alt="social icons"><BsTwitter className='fs-4'/></a>
+                         <a className='text-white' href='' alt="social icons"><BsInstagram className='fs-4'/></a>
+                         <a className='text-white' href='' alt="social icons"><BsPinterest className='fs-4'/></a>
                     </div>
                    </div>
                </div>
